@@ -4,8 +4,12 @@
   "version": "${version}",
   "name": "Mismatched chests",
   "description": "A mod to make mismatched chests work nicely together",
-  "authors": [],
-  "contact": {},
+  "authors": ["Ghoul"],
+  "contact": {
+    "homepage": "https://modrinth.com/modmismatched-chests",
+    "sources": "https://github.com/NotGhoull/mismatched-chests",
+    "issues": "https://github.com/NotGhoull/mismatched-chests/issues"
+  },
   "license": "All-Rights-Reserved",
   "icon": "assets/mismatched_chests/icon.png",
   "environment": "*",
@@ -28,5 +32,8 @@
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
     "minecraft": ">=${minecraft_version}"
+  },
+  "recommends": {
+    "lolmcv": ">=1.5.5"
   }
 }
