@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "mismatched_chests",
+  "version": "${version}",
+  "name": "Mismatched chests",
+  "description": "A mod to make mismatched chests work nicely together",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/mismatched_chests/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.ghoul.mismatched_chests.client.MainClient"
+    ],
+    "main": [
+      "me.ghoul.mismatched_chests.Main"
+    ]
+  },
+  "mixins": [
+    "mismatched_chests.mixins.json",
+    {
+      "config": "mismatched_chests.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": ">=${minecraft_version}"
+  }
+}
