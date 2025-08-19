@@ -50,22 +50,22 @@ jobs:
           cat gradle.properties
 
       - name: Build
-        run: ./gradlew build
+        run: ./gradlew jar
 
       - name: Upload artifacts (Fabric)
         uses: actions/upload-artifact@v4
         with:
           name: "mismatched-chests-fabric"
-          path: "./fabric/build/libs/mismatched_chests-fabric-1.21-${{ steps.set_version.outputs.new_version }}*.jar"
+          path: "./fabric/build/libs/mismatched_chests-fabric-1.21.1-${{ steps.set_version.outputs.new_version }}*.jar"
 
       - name: Upload artifacts (Neoforge)
         uses: actions/upload-artifact@v4
         with:
           name: "mismatched-chests-neoforge"
-          path: "./neoforge/build/libs/mismatched_chests-neoforge-1.21-${{ steps.set_version.outputs.new_version }}*.jar"
+          path: "./neoforge/build/libs/mismatched_chests-neoforge-1.21.1-${{ steps.set_version.outputs.new_version }}*.jar"
 
       - name: Upload artifacts (Forge)
         uses: actions/upload-artifact@v4
         with:
           name: "mismatched-chests-forge"
-          path: "./forge/build/libs/Mismatched Chests-forge-1.21-${{ steps.set_version.outputs.new_version }}*.jar"
+          path: "./forge/build/libs/Mismatched Chests-forge-1.21.1-${{ steps.set_version.outputs.new_version }}*.jar"
