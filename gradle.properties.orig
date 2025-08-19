@@ -1,3 +1,18 @@
+<<<<<<< HEAD
+# Done to increase the memory available to gradle.
+org.gradle.jvmargs=-Xmx1G
+# Fabric Properties
+# check these on https://modmuss50.me/fabric.html
+minecraft_version=1.21
+loader_version=0.17.2
+# Mod Properties
+mod_version=1.0-SNAPSHOT
+maven_group=me.ghoul
+archives_base_name=mismatched-chests
+# Dependencies
+# check this on https://modmuss50.me/fabric.html
+fabric_version=0.102.0+1.21
+=======
 # Important Notes:
 # Every field you add must be added to the root build.gradle expandProps map.
 # Project
@@ -30,3 +45,4 @@ neoforge_loader_version_range=[4,)
 # Gradle
 org.gradle.jvmargs=-Xmx3G
 org.gradle.daemon=false
+>>>>>>> multiloader
