@@ -1,8 +1,8 @@
 # Mismatched chests
 
-![Mod logo](src/main/resources/assets/mismatched_chests/icon.png)
+![Mod logo](common/src/main/resources/mismatched_chests/icon.png)
 
-Mismatched Chests is a simple mod that allows you to combine two chests of different wood types to create a double chest, as if they were the same. It's designed to work with other mods that add new chests, such as [LieOnLion's More chest variants mod](https://modrinth.com/mod/more-chest-variants-lieonlion), so you can have an oak chest, and a cherry chest side-by-side and still have them function as a single, double chest!
+Mismatched Chests is a simple mod that allows you to combine two chests of different wood types to create a double chest, as if they were the same. It's designed to work with other mods that add new chests, such as [LieOnLion's More chest variants mod](https://modrinth.com/mod/more-chest-variants-lieonlion) <img height="18" width="18" src="https://unpkg.com/simple-icons@v15/icons/modrinth.svg" alt="MODRINTH_ICON" />, so you can have an oak chest, and a cherry chest side-by-side and still have them function as a single, double chest!
 
 ![A cherry chest and an oak chest combined](.github/assets/cherry_oak_combined.png)
 
@@ -13,7 +13,7 @@ Mismatched Chests is a simple mod that allows you to combine two chests of diffe
 
 ## Installation
 - Download [fabric 1.21+](https://fabricmc.net/use/installer/) from fabricmc
-- Download [Mismatched chests](https://modrinth.com/mod/mismatched-chests) from Modrinth or the [GitHub releases](https://github.com/NotGhoull/mismatched-chests/releases)
+- Download [Mismatched chests](https://modrinth.com/mod/mismatched-chests) <img height="18" width="18" src="https://unpkg.com/simple-icons@v15/icons/modrinth.svg" alt="MODRINTH_ICON" /> from Modrinth or the [GitHub releases](https://github.com/NotGhoull/mismatched-chests/releases) <img height="18" width="18" src="https://unpkg.com/simple-icons@v15/icons/github.svg" alt="Github icon" />
 - Place the downloaded `.jar` file in your `mods` folder
 - Launch and enjoy!
 
@@ -22,9 +22,8 @@ Mismatched chests should work with any extra chest mod, however is there are any
 
 ## Licence
 This mod is open source and licensed under the **GPLv3 licence**. Feel free to fork the repository, make changes, and submit PRs!
-
 ## Tested mods
-- [More chest variants | LieOnLion](https://modrinth.com/mod/more-chest-variants-lieonlion)
+- [More chest variants | LieOnLion](https://modrinth.com/mod/more-chest-variants-lieonlion) <img height="18" width="18" src="https://unpkg.com/simple-icons@v15/icons/modrinth.svg" alt="MODRINTH_ICON" />
 
 ## Known incompatibilities
 - Sophisticated Storage (Currently being worked on)
