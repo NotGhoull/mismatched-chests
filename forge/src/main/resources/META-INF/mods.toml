@@ -25,3 +25,8 @@ mandatory = true
 versionRange = "${minecraft_version_range}"
 ordering = "NONE"
 side = "BOTH"
+
+[[dependencies."${mod_id}"]]
+modId = "lolmcv"
+type = "optional"
+versionRange = "(1.0,)"
