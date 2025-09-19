@@ -1,6 +1,6 @@
 # Mismatched chests
 
-![Mod logo](common/src/main/resources/mismatched_chests/icon.png)
+![Mod logo](common/src/main/resources/mismatched_chests.png)
 
 Mismatched Chests is a simple mod that allows you to combine two chests of different wood types to create a double chest, as if they were the same. It's designed to work with other mods that add new chests, such as [LieOnLion's More chest variants mod](https://modrinth.com/mod/more-chest-variants-lieonlion) <img height="18" width="18" src="https://unpkg.com/simple-icons@v15/icons/modrinth.svg" alt="MODRINTH_ICON" />, so you can have an oak chest, and a cherry chest side-by-side and still have them function as a single, double chest!
 
